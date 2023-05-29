@@ -1,0 +1,30 @@
+/* ---Destop----*/
+@media screen and (max-width:1200px) {
+    .box-banner{
+        height: 400px;
+    }
+    .grid{
+        grid-column: 50% 50%;
+        grid-column-gap: 5rem;
+    }
+
+}
+/* ---Tablet--- */
+@media screen and (max-width:780px){
+    .box-banner{
+        height: 300px;
+    
+    }
+    .grid{
+        grid-template-columns: auto;
+    }
+
+}
+
+/* ---Mobile--- */
+@media screen and (max-width:480px){
+
+    .info h1{
+        font-size: 33px;
+    }
+}
