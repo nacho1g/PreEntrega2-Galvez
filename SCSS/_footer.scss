@@ -1,0 +1,33 @@
+footer{
+    justify-content: auto;
+padding-bottom: 1rem;
+    background: #181818;
+
+    font-family: "Open Sans";
+    padding-top: 49px;
+    color: aliceblue;
+    margin-top: 13rem;
+
+    .footer-content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h3{
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+
+        p{
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+        }
+
+        .politics{
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
